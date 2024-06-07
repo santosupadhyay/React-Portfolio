@@ -1,0 +1,40 @@
+.main-container {
+  background-color: #3f3f3f;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.navbar {
+  width: 20%;
+  height: 10vh;
+  margin: 0 auto;
+  padding: 2vh 0;
+  color: white;
+  font-size: 20px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-circle {
+  border: 5px solid #13ff00;
+  width: 800px;
+  height: 100vh;
+  border-radius: 50%;
+  -webkit-box-shadow: -1px 1px 5px 9px #13ff00;
+  -moz-box-shadow: -1px 1px 5px 9px #13ff00;
+  box-shadow: -1px 1px 5px 9px #13ff00;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding-left: -220px;
+}
+h1{
+  border-bottom: 5px solid #13ff00;
+}
